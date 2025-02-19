@@ -6,6 +6,12 @@
     flex-direction: row;
     justify-content: space-between;
     border-radius: 1vw;
+    transition: all 1s ease;
+}
+
+.blocoPerfil:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
 }
 
 /*Classe da section que organiza os textos*/
@@ -32,12 +38,24 @@ gap: 1vw;
     padding: 1vw;
     border-top-left-radius: 1vw; /* Altera só a borda esquerda-alta do bloco */
     border-bottom-left-radius: 1vw; /* Altera só a borda esquerda-baixa do bloco */
+    transition: all 1s ease;
+}
+
+.fotoPerfil:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
 }
 
 /* Altera o tamanho do h3 */
 .nome {
     font-size: 1.5em;
     margin: 0;
+    transition: all 1s ease;
+}
+
+.nome:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
 }
 
 /* Altera o tamanho do p */
@@ -45,4 +63,5 @@ gap: 1vw;
     font-size: 1em;
     margin: 0;
     width: 15vw;
+    transition: all 1s ease;
 }
