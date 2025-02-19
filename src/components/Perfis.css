@@ -65,3 +65,8 @@ gap: 1vw;
     width: 15vw;
     transition: all 1s ease;
 }
+
+.hobbies:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
