@@ -55,20 +55,20 @@ function App() {
           <section className="blocoCartas">
             <Perfil 
               foto={fotoPietro} 
-              nome="Pietro Melle Michelin" 
-              hobbies="Os meus hobbies são: Praticar esportes" 
+              nome="@Pietro_Melle" 
+              hobbies="Sou o Pietro Melle, tenho 16 anos e moro em Jundiaí. Adoro jogar com os meus amigos e andar de bicicleta. 🚴‍♀️" 
             />
 
             <Perfil 
               foto={fotoPyetro} 
-              nome="Pyetro Joaquim Taborda Nunes" 
-              hobbies="Os meus hobbies são: Jogar jogos online, ouvir música e cozinhar" 
+              nome="@Pyetro_Joaquim" 
+              hobbies="Sou o Pyetro Joaqueim, tenho 17 anos e moro em Valinhos. Gosto de cozinhar e jogar. 🎮" 
             />
 
             <Perfil 
               foto={fotoVitor} 
-              nome="Vitor Geraldo Cecato" 
-              hobbies="Meus hobbies são: jogar jogos online, programar e nadar." 
+              nome="@Vitor_Geraldo" 
+              hobbies="Sou o Vitor Geraldo, tenho 17 anos e moro em Valinhos. Adoro nadar, programar e jogar com os meus colegas. 🏊‍♂️" 
             />
           </section>
         </main>
