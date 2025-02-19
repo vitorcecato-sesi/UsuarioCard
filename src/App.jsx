@@ -1,7 +1,7 @@
 import './App.css'
 
 // Componentes
-  import Perfil from "./components/Perfis"
+  import UsuarioCard from "./components/UsuarioCard"
   import Header from "./components/Header"
   import Valores from "./components/aside"
   import Footer from "./components/Footer"
@@ -30,22 +30,22 @@ function App() {
       <section className="meioPagina">
         <main className="elementosCartas">
           <section className="blocoCartas">
-            <Perfil
-              // Aqui estamos passando a foto como propriedade para o componente "Perfil"
+            <UsuarioCard
+              // Aqui estamos passando a foto como propriedade para o componente "UsuarioCard"
               foto={fotoPerfilLauraB}
-              // Aqui estamos passando o nome como propriedade para o componente "Perfil"
+              // Aqui estamos passando o nome como propriedade para o componente "UsuarioCard"
               nome="Laura Betti Migliaccio"
-              // Aqui estamos passando os hobbies como propriedade para o componente "Perfil"
+              // Aqui estamos passando os hobbies como propriedade para o componente "UsuarioCard"
               hobbies="Os meus hobbies são: Ouvir música e ver filmes/séries."
             />
 
-            <Perfil 
+            <UsuarioCard
               foto={fotoPerfilLucas} 
               nome="Lucas Casagrande da Silva" 
               hobbies="Os meus hobbies são: Praticar vôlei, jogar jogos online e assistir séries." 
             />
 
-            <Perfil 
+            <UsuarioCard 
               foto={fotoPerfilMilena} 
               nome="Milena Oliveira Souza" 
               hobbies="Os meus hobbies são: Escutar música, ver filmes e séries, estudar matemática e cozinhar." 
@@ -53,19 +53,19 @@ function App() {
           </section>
 
           <section className="blocoCartas">
-            <Perfil 
+            <UsuarioCard 
               foto={fotoPietro} 
               nome="Pietro Melle Michelin" 
               hobbies="Os meus hobbies são: Praticar esportes" 
             />
 
-            <Perfil 
+            <UsuarioCard
               foto={fotoPyetro} 
               nome="Pyetro Joaquim Taborda Nunes" 
               hobbies="Os meus hobbies são: Jogar jogos online, ouvir música e cozinhar" 
             />
 
-            <Perfil 
+            <UsuarioCard
               foto={fotoVitor} 
               nome="Vitor Geraldo Cecato" 
               hobbies="Meus hobbies são: jogar jogos online, programar e nadar." 
