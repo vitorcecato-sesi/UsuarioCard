@@ -4,7 +4,7 @@ import logoG3 from "../assets/logoG3.png"
 function Header() {
     return (
         <header className="Header"> 
-            <h1> DESAFIO 1 de PROPS - REACT </h1>
+            <h1> Exercício 7 - Cartão de Usuário Dinâmico </h1>
             <img className="imagem" src={logoG3} />
         </header>
     )
