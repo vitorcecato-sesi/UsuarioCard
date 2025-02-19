@@ -1,4 +1,37 @@
 #root {
+  /* Formatação do Root */
   margin: 0;
   padding: 0;
+
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.meioPagina {
+  /* FlexBox */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.elementosCartas {
+  /* FlexBox */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  /* Medidas */
+  width: 80vw;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.blocoCartas {
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
