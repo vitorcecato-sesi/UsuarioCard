@@ -6,7 +6,12 @@ function perfil (props) { //Função que ao ser chamada vai inserir o modelo do 
     const [seguindo, setSeguindo] = useState("Seguir")
 
     function seguir(){
+        if (seguindo === "Seguir"){ 
     setSeguindo("Seguindo")
+        }
+        else {
+            setSeguindo("Seguir")
+        }
     }
     return (
         <>
