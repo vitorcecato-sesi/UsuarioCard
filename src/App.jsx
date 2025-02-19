@@ -36,19 +36,19 @@ function App() {
               // Aqui estamos passando o nome como propriedade para o componente "Perfil"
               nome="@laura_betti"
               // Aqui estamos passando os hobbies como propriedade para o componente "Perfil"
-              hobbies="Sou a Laura Betti , tenho 17 anos e moro em Louveira , gosto de ver series/filmes."
+              hobbies="Sou a Laura Betti , tenho 17 anos e moro em Louveira , gosto de ver series/filmes. 🎬"
             />
 
             <Perfil 
               foto={fotoPerfilLucas} 
               nome="@lucas_casagrande" 
-              hobbies="Sou o Lucas Casagrande ,tenho 17 anos e moro em Vinhedo e adoro jogar jogos online com meu amigos." 
+              hobbies="Sou o Lucas Casagrande ,tenho 17 anos e moro em Vinhedo e adoro jogar volei e jogos online com meu amigos. 🏐" 
             />
 
             <Perfil 
               foto={fotoPerfilMilena} 
               nome="@milena_souza" 
-              hobbies="Sou a Milena , tenho 16 anos e gosto de passar o tempo com meus amigos e famílias." 
+              hobbies="Sou a Milena , tenho 16 anos e gosto de passar o tempo com meus amigos e famílias. 👨‍👩‍👧" 
             />
           </section>
 
