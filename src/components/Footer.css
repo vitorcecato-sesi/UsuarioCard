@@ -34,6 +34,7 @@ imgLogo:hover = Aperecer um circulo verde atras da logo apos passsar o mouse
     flex-direction: row;
     padding-left: 15em; 
     font-size: 1.1rem;
+
 }
 
 .bloco-img1{
@@ -71,7 +72,6 @@ img{
 p:hover{
     color: rgb(31, 72, 4);
     transition: all 450ms ease-in; /*Tempo para ocorrer a aumentada de texto*/
-    transform: scale(1.2); /*Tamanho que vai aumentar*/
 }
 
 .imglogo:hover{
@@ -82,7 +82,6 @@ p:hover{
 .imglogo{
     width: 6vw;
     height: 10vh; 
-    padding-left: 8em;
     padding: 5px 0px 0px 5px; /*Especura da 'borda' atráz da logo'*/
 }
 
