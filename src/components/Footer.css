@@ -71,7 +71,6 @@ img{
 p:hover{
     color: rgb(31, 72, 4);
     transition: all 450ms ease-in; /*Tempo para ocorrer a aumentada de texto*/
-    transform: scale(1.2); /*Tamanho que vai aumentar*/
 }
 
 .imglogo:hover{
