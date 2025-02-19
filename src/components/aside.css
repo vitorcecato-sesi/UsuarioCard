@@ -1,0 +1,38 @@
+.lado{
+  /* tamanho da caixa */
+  width: 13vw;
+  height: 70vh;
+  background-color: #B66E3F;
+  padding: 1em;
+  border: 0.2em solid black;
+  border-radius: 2em;
+  /* Alinha os elementos internos verticalmente */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul{
+  /* Remove o espaçamento interno da lista */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  /* Alinha os elementos da lista verticalmente */
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  padding: 1em;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px)  {
+
+  .lado{
+    width: 20vw;
+    margin-right: 2vw;
+  }
+}
