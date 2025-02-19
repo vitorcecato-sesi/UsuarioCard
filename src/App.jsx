@@ -34,20 +34,20 @@ function App() {
               // Aqui estamos passando a foto como propriedade para o componente "UsuarioCard"
               foto={fotoPerfilLauraB}
               // Aqui estamos passando o nome como propriedade para o componente "Perfil"
-              nome="@Laura_betti"
+              nome="@Laura_Betti"
               // Aqui estamos passando os hobbies como propriedade para o componente "Perfil"
               hobbies="Sou a Laura Betti, tenho 17 anos e moro em Louveira , gosto de ver series/filmes. 🎬"
             />
 
             <UsuarioCard
               foto={fotoPerfilLucas} 
-              nome="@Lucas_casagrande" 
+              nome="@Lucas_Casagrande" 
               hobbies="Sou o Lucas Casagrande, tenho 17 anos e moro em Vinhedo e adoro jogar volei e jogos online com meus amigos. 🏐" 
             />
 
             <UsuarioCard 
               foto={fotoPerfilMilena} 
-              nome="@Milena_souza" 
+              nome="@Milena_Souza" 
               hobbies="Sou a Milena, tenho 16 anos e gosto de passar o tempo com meus amigos e famílias. 👨‍👩‍👧" 
             />
           </section>
