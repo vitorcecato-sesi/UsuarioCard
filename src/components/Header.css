@@ -28,7 +28,7 @@ h1 {
     height: 18vh;
     filter: drop-shadow(0px 0px 12px rgb(85, 85, 85));
     transition: all 1s ease;
-    padding-left: 15em;
+    padding-left: 7em;
 }
 
 .imagem:hover {

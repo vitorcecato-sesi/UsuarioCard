@@ -1,7 +1,7 @@
 import './App.css'
 
 // Componentes
-  import Perfil from "./components/Perfis"
+  import UsuarioCard from "./components/UsuarioCard"
   import Header from "./components/Header"
   import Valores from "./components/aside"
   import Footer from "./components/Footer"
@@ -30,8 +30,8 @@ function App() {
       <section className="meioPagina">
         <main className="elementosCartas">
           <section className="blocoCartas">
-            <Perfil
-              // Aqui estamos passando a foto como propriedade para o componente "Perfil"
+            <UsuarioCard
+              // Aqui estamos passando a foto como propriedade para o componente "UsuarioCard"
               foto={fotoPerfilLauraB}
               // Aqui estamos passando o nome como propriedade para o componente "Perfil"
               nome="@laura_betti"
@@ -39,13 +39,13 @@ function App() {
               hobbies="Sou a Laura Betti , tenho 17 anos e moro em Louveira , gosto de ver series/filmes. 🎬"
             />
 
-            <Perfil 
+            <UsuarioCard
               foto={fotoPerfilLucas} 
               nome="@lucas_casagrande" 
               hobbies="Sou o Lucas Casagrande ,tenho 17 anos e moro em Vinhedo e adoro jogar volei e jogos online com meu amigos. 🏐" 
             />
 
-            <Perfil 
+            <UsuarioCard 
               foto={fotoPerfilMilena} 
               nome="@milena_souza" 
               hobbies="Sou a Milena , tenho 16 anos e gosto de passar o tempo com meus amigos e famílias. 👨‍👩‍👧" 
@@ -53,22 +53,22 @@ function App() {
           </section>
 
           <section className="blocoCartas">
-            <Perfil 
+            <UsuarioCard 
               foto={fotoPietro} 
-              nome="Pietro Melle Michelin" 
-              hobbies="Os meus hobbies são: Praticar esportes" 
+              nome="@Pietro_Melle" 
+              hobbies="Sou o Pietro Melle, tenho 16 anos e moro em Jundiaí. Adoro jogar com os meus amigos e andar de bicicleta. 🚴‍♀️" 
             />
 
-            <Perfil 
+            <UsuarioCard
               foto={fotoPyetro} 
-              nome="Pyetro Joaquim Taborda Nunes" 
-              hobbies="Os meus hobbies são: Jogar jogos online, ouvir música e cozinhar" 
+              nome="@Pyetro_Joaquim" 
+              hobbies="Sou o Pyetro Joaqueim, tenho 17 anos e moro em Valinhos. Gosto de cozinhar e jogar. 🎮" 
             />
 
-            <Perfil 
+            <UsuarioCard
               foto={fotoVitor} 
-              nome="Vitor Geraldo Cecato" 
-              hobbies="Meus hobbies são: jogar jogos online, programar e nadar." 
+              nome="@Vitor_Geraldo" 
+              hobbies="Sou o Vitor Geraldo, tenho 17 anos e moro em Valinhos. Adoro nadar, programar e jogar com os meus colegas. 🏊‍♂️" 
             />
           </section>
         </main>
