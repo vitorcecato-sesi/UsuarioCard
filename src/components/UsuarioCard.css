@@ -10,17 +10,17 @@
 
 /*Classe da section que organiza os textos*/
 .blocoTextos {
-display: flex;
-flex-direction: column;
-background-color: #F2E5B8;
-width: 20vw;
-height: auto;
-text-align: center;
-justify-content: center;
-align-items: center;
-border-top-right-radius: 1vw; /* Altera só a borda direita-alta do bloco*/
-border-bottom-right-radius: 1vw; /* Altera só a borda direita-baixa do bloco*/
-gap: 1vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2E5B8;
+    width: 20vw;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 1vw; /* Altera só a borda direita-alta do bloco*/
+    border-bottom-right-radius: 1vw; /* Altera só a borda direita-baixa do bloco*/
+    gap: 1vw;
 }
 
 /* Estiliza a foto de perfil */
@@ -44,5 +44,19 @@ gap: 1vw;
 .hobbies {
     font-size: 1em;
     margin: 0;
-    width: 15vw;
+    width: 19vw;
+}
+
+button {
+    padding: 0.5em;
+    width: 10vw;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+button:hover {
+    transition: all 1s ease;
+    transform: scale(1.1);
 }

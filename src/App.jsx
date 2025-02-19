@@ -68,7 +68,7 @@ function App() {
             <UsuarioCard
               foto={fotoVitor} 
               nome="@Vitor_Geraldo" 
-              hobbies="Sou o Vitor Geraldo, tenho 17 anos e moro em Valinhos. Adoro nadar, programar e jogar com os meus colegas. 🏊‍♂️" 
+              hobbies="Sou o Vitor Geraldo, tenho 17 anos e moro em Valinhos. Amo nadar e programar. 🏊‍♂️" 
             />
           </section>
         </main>
