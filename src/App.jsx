@@ -34,21 +34,21 @@ function App() {
               // Aqui estamos passando a foto como propriedade para o componente "UsuarioCard"
               foto={fotoPerfilLauraB}
               // Aqui estamos passando o nome como propriedade para o componente "Perfil"
-              nome="@laura_betti"
+              nome="@Laura_betti"
               // Aqui estamos passando os hobbies como propriedade para o componente "Perfil"
-              hobbies="Sou a Laura Betti , tenho 17 anos e moro em Louveira , gosto de ver series/filmes. 🎬"
+              hobbies="Sou a Laura Betti, tenho 17 anos e moro em Louveira , gosto de ver series/filmes. 🎬"
             />
 
             <UsuarioCard
               foto={fotoPerfilLucas} 
-              nome="@lucas_casagrande" 
-              hobbies="Sou o Lucas Casagrande ,tenho 17 anos e moro em Vinhedo e adoro jogar volei e jogos online com meu amigos. 🏐" 
+              nome="@Lucas_casagrande" 
+              hobbies="Sou o Lucas Casagrande, tenho 17 anos e moro em Vinhedo e adoro jogar volei e jogos online com meus amigos. 🏐" 
             />
 
             <UsuarioCard 
               foto={fotoPerfilMilena} 
-              nome="@milena_souza" 
-              hobbies="Sou a Milena , tenho 16 anos e gosto de passar o tempo com meus amigos e famílias. 👨‍👩‍👧" 
+              nome="@Milena_souza" 
+              hobbies="Sou a Milena, tenho 16 anos e gosto de passar o tempo com meus amigos e famílias. 👨‍👩‍👧" 
             />
           </section>
 
@@ -62,13 +62,13 @@ function App() {
             <UsuarioCard
               foto={fotoPyetro} 
               nome="@Pyetro_Joaquim" 
-              hobbies="Sou o Pyetro Joaqueim, tenho 17 anos e moro em Valinhos. Gosto de cozinhar e jogar. 🎮" 
+              hobbies="Sou o Pyetro Joaquim, tenho 17 anos e moro em Valinhos. Gosto de cozinhar e jogar. 🎮" 
             />
 
             <UsuarioCard
               foto={fotoVitor} 
               nome="@Vitor_Geraldo" 
-              hobbies="Sou o Vitor Geraldo, tenho 17 anos e moro em Valinhos. Adoro nadar, programar e jogar com os meus colegas. 🏊‍♂️" 
+              hobbies="Sou o Vitor Geraldo, tenho 17 anos e moro em Valinhos. Amo nadar e programar. 🏊‍♂️" 
             />
           </section>
         </main>
