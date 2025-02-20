@@ -26,8 +26,9 @@ function App() {
 
   return (
     <>
+      {/* Header */}
       <Header/>
-      <section className="meioPagina">
+      <section className="meioPagina"> {/* Section que estrutura a página*/}
         <main className="elementosCartas">
           <section className="blocoCartas">
             <UsuarioCard
@@ -72,8 +73,11 @@ function App() {
             />
           </section>
         </main>
+        {/* Aside com valores */}
         <Valores  valor1="União" valor2="Honestidade" valor3="Comprometimento"/>
       </section>
+
+      {/* Footer */}
       <Footer 
         imagem1={foto} 
         imagem2={foto2} 
