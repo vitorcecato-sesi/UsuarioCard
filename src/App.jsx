@@ -83,7 +83,7 @@ function App() {
         imagem2={foto2} 
         email="vitor.cecatosesi@gmail.com" 
         instagram="@vitorgcecato"
-        texto="O Vitor Geraldo Cecato é o responsável pelo projeto PROPS, cuidando da coordenação e garantindo que o conteúdo seja de qualidade e esteja sempre no caminho certo." 
+        texto="O Vitor Geraldo Cecato é o responsável pelo projeto Cartão Usuário Dinâmico, cuidando da coordenação e garantindo que o conteúdo seja de qualidade e esteja sempre no caminho certo." 
         imglogo={logo}
       />
     </>
