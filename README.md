@@ -1,4 +1,4 @@
-# Exercicio - Cartão de Usuário Dinâmico
+# Exercicio 7 - Cartão de Usuário Dinâmico
 **Objetivo:**
 Criar um cartão de usuário, onde as informações do usuário são passadas via props, e o botão "Seguir" usa useState para alternar entre "Seguindo" e "Seguir".
 
