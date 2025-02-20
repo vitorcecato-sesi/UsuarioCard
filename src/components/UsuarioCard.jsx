@@ -3,16 +3,17 @@ import { useState } from "react";
 
 function perfil (props) { //Função que ao ser chamada vai inserir o modelo do perfil na página.
 
-    const [seguindo, setSeguindo] = useState("Seguir")
+    const [seguindo, setSeguindo] = useState("Seguir")  // Inicia a variável seguindo como "Seguir"
 
     function seguir(){
-        if (seguindo === "Seguir"){ 
-    setSeguindo("Seguindo")
+        if (seguindo === "Seguir"){
+            setSeguindo("Seguindo") // Alterar o estado do botão para seguindo
         }
         else {
-            setSeguindo("Seguir")
+            setSeguindo("Seguir")   // Alterar o estado do botão para seguir
         }
     }
+
     return (
         <>
         <section className="blocoPerfil">  {/*Section responsável por organizar os itens dentro dela*/}
@@ -20,7 +21,7 @@ function perfil (props) { //Função que ao ser chamada vai inserir o modelo do 
             <section className="blocoTextos"> {/*Section responsável por organizar os textos.*/}
                 <h3 className="nome">{props.nome}</h3> {/*H3 com props, o nome do usuário (o nome pode ser alterado no app.jsx)*/}
                 <p className="hobbies">{props.hobbies}</p> {/*p com props, os hobbies (os hobbies pode ser alterado no app.jsx)*/}
-                <button onClick={seguir} className={seguindo} >{seguindo}</button>
+                <button onClick={seguir} className={seguindo} >{seguindo}</button> {/* Botão para realizar a ação de seguir ou deixar de seguir */}
             </section>
         </section>
 
