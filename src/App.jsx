@@ -37,19 +37,19 @@ function App() {
               // Aqui estamos passando o nome como propriedade para o componente "Perfil"
               nome="@Laura_Betti"
               // Aqui estamos passando os hobbies como propriedade para o componente "Perfil"
-              hobbies="Sou a Laura Betti, tenho 17 anos e moro em Louveira , gosto de ver series/filmes. 🎬"
+              descricao="Sou a Laura Betti, tenho 17 anos e moro em Louveira , gosto de ver series/filmes. 🎬"
             />
 
             <UsuarioCard
               foto={fotoPerfilLucas} 
               nome="@Lucas_Casagrande" 
-              hobbies="Sou o Lucas Casagrande, tenho 17 anos e moro em Vinhedo e adoro jogar volei e jogos online com meus amigos. 🏐" 
+              descricao="Sou o Lucas Casagrande, tenho 17 anos e moro em Vinhedo e adoro jogar volei e jogos online com meus amigos. 🏐" 
             />
 
             <UsuarioCard 
               foto={fotoPerfilMilena} 
               nome="@Milena_Souza" 
-              hobbies="Sou a Milena, tenho 16 anos e gosto de passar o tempo com meus amigos e famílias. 👨‍👩‍👧" 
+              descricao="Sou a Milena, tenho 16 anos e gosto de passar o tempo com meus amigos e famílias. 👨‍👩‍👧" 
             />
           </section>
 
@@ -57,19 +57,19 @@ function App() {
             <UsuarioCard 
               foto={fotoPietro} 
               nome="@Pietro_Melle" 
-              hobbies="Sou o Pietro Melle, tenho 16 anos e moro em Jundiaí. Adoro jogar com os meus amigos e andar de bicicleta. 🚴‍♀️" 
+              descricao="Sou o Pietro Melle, tenho 16 anos e moro em Jundiaí. Adoro jogar com os meus amigos e andar de bicicleta. 🚴‍♀️" 
             />
 
             <UsuarioCard
               foto={fotoPyetro} 
               nome="@Pyetro_Joaquim" 
-              hobbies="Sou o Pyetro Joaquim, tenho 17 anos e moro em Valinhos. Gosto de cozinhar e jogar. 🎮" 
+              descricao="Sou o Pyetro Joaquim, tenho 17 anos e moro em Valinhos. Gosto de cozinhar e jogar. 🎮" 
             />
 
             <UsuarioCard
               foto={fotoVitor} 
               nome="@Vitor_Geraldo" 
-              hobbies="Sou o Vitor Geraldo, tenho 17 anos e moro em Valinhos. Amo nadar e programar. 🏊‍♂️" 
+              descricao="Sou o Vitor Geraldo, tenho 17 anos e moro em Valinhos. Amo nadar e programar. 🏊‍♂️" 
             />
           </section>
         </main>
